@@ -1,1 +1,1 @@
-# journal-app-prorotype
+# journal-app

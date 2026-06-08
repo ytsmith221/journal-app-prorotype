@@ -1,0 +1,73 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  theme: {
+    extend: {
+      colors: {
+        sage: {
+          50:  '#f4f7f3',
+          100: '#e6ede4',
+          200: '#cedbc9',
+          300: '#a9c2a2',
+          400: '#7da474',
+          500: '#5C7A52',
+          600: '#4a6741',
+          700: '#3c5435',
+          800: '#32442c',
+          900: '#293924',
+        },
+        bark: {
+          50:  '#faf5ee',
+          100: '#f3e8d5',
+          200: '#e6cfaa',
+          300: '#d4af78',
+          400: '#c4956a',
+          500: '#b5784a',
+          600: '#9a6139',
+          700: '#7e4c2d',
+          800: '#663e28',
+          900: '#553424',
+        },
+        earth: {
+          50:  '#faf7f2',
+          100: '#f5efe6',
+          200: '#ead9c4',
+          300: '#dbbf9b',
+          400: '#c99e6e',
+          500: '#bc8750',
+          600: '#a97040',
+          700: '#8b5836',
+          800: '#714830',
+          900: '#5c3c29',
+        },
+        moss: {
+          50:  '#f3f6f0',
+          100: '#e3ebde',
+          200: '#c6d6bc',
+          300: '#9db892',
+          400: '#739866',
+          500: '#547a48',
+          600: '#416237',
+          700: '#354f2d',
+          800: '#2c4026',
+          900: '#243520',
+        },
+        cream: '#FAF7F2',
+        parchment: '#F0E9DC',
+      },
+      fontFamily: {
+        serif: ['Lora', 'Georgia', 'serif'],
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+      },
+      borderRadius: {
+        '2xl': '1rem',
+        '3xl': '1.5rem',
+      },
+      boxShadow: {
+        'warm': '0 2px 16px 0 rgba(92, 122, 82, 0.08)',
+        'bark': '0 2px 16px 0 rgba(139, 88, 54, 0.10)',
+      },
+    },
+  },
+  plugins: [],
+}
